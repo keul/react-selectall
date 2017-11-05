@@ -1,0 +1,51 @@
+h1 {
+  line-height: 0.5;
+  text-align: center;
+  margin-top: 2em;
+  &:first-child {
+    margin-top: 1em;
+  }
+}
+h1 span {
+  display: inline-block;
+  position: relative;
+}
+h1 span:before,
+h1 span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  top: 0;
+  width: 300px;
+}
+h1 span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+h1 span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.doc {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.selectable {
+  margin-bottom: 2rem;
+  &:hover {
+    background-color: #f0f0f0;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 5px;
+    width: 99%;
+  }
+}
