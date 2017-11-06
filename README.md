@@ -56,8 +56,8 @@ You can change it to a single click customizing the `selectOn`:
 import SelectAll from 'react-selectall';
 
 <SelectAll selectOn="onClick">
-    <div>Foo bar baz</div>
-    <CustomComponent>qux tux</CustomComponent>
+  <div>Foo bar baz</div>
+  <CustomComponent>qux tux</CustomComponent>
 </SelectAll>
 ```
 
@@ -71,8 +71,8 @@ You can save the user from doing the copy operation itself by activating the `to
 import SelectAll from 'react-selectall';
 
 <SelectAll toClipboard>
-    <div>Foo bar baz</div>
-    <CustomComponent>qux tux</CustomComponent>
+  <div>Foo bar baz</div>
+  <CustomComponent>qux tux</CustomComponent>
 </SelectAll>
 ```
 
@@ -90,8 +90,8 @@ You can then pass an event handler function to the `onSelect: prop
 import SelectAll from 'react-selectall';
 
 <SelectAll onSelect={handleSelect}>
-    <div>Foo bar baz</div>
-    <CustomComponent>qux tux</CustomComponent>
+  <div>Foo bar baz</div>
+  <CustomComponent>qux tux</CustomComponent>
 </SelectAll>
 ```
 
@@ -111,8 +111,8 @@ But You can move the selection behavior to childrens:
 import SelectAll from 'react-selectall';
 
 <SelectAll childSelection>
-    <div>Foo bar baz</div>
-    <CustomComponent>qux tux</CustomComponent>
+  <div>Foo bar baz</div>
+  <CustomComponent>qux tux</CustomComponent>
 </SelectAll>
 ```
 
