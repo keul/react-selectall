@@ -24,9 +24,9 @@ const CustomSpan = props => {
 
 const App = () => (
   <div>
-    <h1>
+    <h2>
       <span>Getting started</span>
-    </h1>
+    </h2>
     <p className="doc">Select the text below with a double-click.</p>
     <SelectAll className="demo selectable">
       <p>
@@ -55,9 +55,9 @@ const App = () => (
       </p>
     </SelectAll>
 
-    <h1>
+    <h2>
       <span>Just click</span>
-    </h1>
+    </h2>
     <p className="doc">A simple single-click trigger the selection.</p>
     <SelectAll className="demo selectable" selectOn="onClick">
       <p>
@@ -86,9 +86,9 @@ const App = () => (
       </p>
     </SelectAll>
 
-    <h1>
+    <h2>
       <span>Selection event</span>
-    </h1>
+    </h2>
     <p className="doc">
       You can add an event handler to executed after selection take place.
     </p>
@@ -124,9 +124,9 @@ ${text}
       </p>
     </SelectAll>
 
-    <h1>
+    <h2>
       <span>Copy to clipboard</span>
-    </h1>
+    </h2>
     <p className="doc">
       You can enable automatic copy to clipboard feature. Selected text is
       automatically copied.
@@ -149,9 +149,9 @@ ${text}
       </p>
     </SelectAll>
 
-    <h1>
+    <h2>
       <span>Act on subelements</span>
-    </h1>
+    </h2>
     <p className="doc">
       You can choose to trigger selection when acting on sub-elements.{' '}
       <em><small>Works on React subcomponents as well.</small></em>
@@ -186,9 +186,9 @@ ${text}
       </p>
     </SelectAll>
 
-    <h1>
+    <h2>
       <span>Acting on subelements supports other features too</span>
-    </h1>
+    </h2>
     <p className="doc">
       Event activation, handlers and other props are supported by sub-elements too.
     </p>

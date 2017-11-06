@@ -2,7 +2,7 @@ react-selectall
 ===============
 
 [![Build Status](https://travis-ci.org/keul/react-selectall.svg?branch=master)](https://travis-ci.org/keul/react-selectall)
-[![Dependencies](https://img.shields.io/david/keul/react-selectall/svg)]()
+[![Dependencies](https://img.shields.io/david/keul/react-selectall.svg)]()
 [![Dev Dependencies](https://img.shields.io/david/dev/keul/react-selectall.svg)]()
 
 ReactJS component for selecting text easily.
@@ -46,8 +46,7 @@ import SelectAll from 'react-selectall';
 
 When you will double-click on the rendered container, all of the text inside will be selected.
 
-Change activation event
-~~~~~~~~~~~~~~~~~~~~~~~
+### Change activation event
 
 By default the select-all activation event is a double-click.
 
@@ -62,8 +61,7 @@ import SelectAll from 'react-selectall';
 </SelectAll>
 ```
 
-Copy to clipboard
-~~~~~~~~~~~~~~~~~
+### Copy to clipboard
 
 The most common usage of a selected text is to copy it.
 
@@ -82,8 +80,7 @@ import SelectAll from 'react-selectall';
 
 Plus: some versions of Internet Explorer ask explicitly a confirmation to the user.
 
-Copy event
-~~~~~~~~~~
+### Copy event
 
 Still you can be interested in doing other operations with the selected text.
 
@@ -104,8 +101,7 @@ The `handleSelect` receive following parameters:
 * `text` - the selected text
 * `toClipboard` - a boolean value, true if the selection has been successfully copied to clipboard.
 
-Subelements
------------
+### Subelements
 
 By default a `SelectAll` component wrap what it contains in a single selection block.
 
