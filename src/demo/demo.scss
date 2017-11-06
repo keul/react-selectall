@@ -36,16 +36,18 @@ h1 span:after {
   font-size: 1.2em;
 }
 
-.selectable {
+.demo {
   margin-bottom: 2rem;
-  &:hover {
-    background-color: #f0f0f0;
-  }
   &:after {
     content: "";
     position: absolute;
     background-color: black;
     height: 5px;
     width: 99%;
+  }
+}
+.selectable {
+  &:hover {
+    background-color: #f0f0f0;
   }
 }
