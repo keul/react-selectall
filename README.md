@@ -39,8 +39,8 @@ The simplest use is to wrap your subcomponents or subelements inside a `SelectAl
 import SelectAll from 'react-selectall';
 
 <SelectAll>
-    <div>Foo bar baz</div>
-    <CustomComponent>qux tux</CustomComponent>
+  <div>Foo bar baz</div>
+  <CustomComponent>qux tux</CustomComponent>
 </SelectAll>
 ```
 
